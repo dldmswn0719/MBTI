@@ -6,7 +6,7 @@ function TestResult({ mbtiContent }) {
       <div className="flex-col bg-[#bacce0] w-full max-w-4xl h-full overflow-hidden">
         <div className="flex flex-row w-full items-center p-4 box-border font-bold">
           <div className="flex flex-1">MBTI 테스트</div>
-          <div onClick={() => window.location.reload()}>다시하기</div>
+          <div className="cursor-pointer" onClick={() => window.location.reload()}>다시하기</div>
         </div>
         <div className="flex flex-col h-auto overflow-scroll scroll" style={{ display: "flex" }}>
           <div className="flex flex-1 m-[10px_15px_5px_15px]">
