@@ -1,20 +1,81 @@
 let mc = [
-    {mbti:'ENTP',content:['말을 잘해요','이상한 말을 자주 해요','혼자서도 잘 해요'],img:"./../Images/entp.svg"},
-    {mbti:'INTP',content:['팩폭을 잘해요','감수성이 풍부해요','주관이 뚜렷해요'],img:"./../Images/intp.svg"},
-    {mbti:'ESFJ',content:['남을 잘 챙겨요','눈치가 빨라요','새로운 사람과의 술자리를 좋아해요'],img:"./../Images/esfj.svg"},
-    {mbti:'ESTP',content:['손재주가 좋아요','리더십이 있어요','표현을 아끼지 않아요'],img:"./../Images/estp.svg"},
-    {mbti:'ISFJ',content:['남 챙기는거 좋아해요','공감 잘 해요','내가 싫은 건 남한테도 안 해요'],img:"./../Images/isfj.svg"},
-    {mbti:'ISTP',content:['효율적인 거 좋아해요','관찰력이 뛰어나요','기계조작 잘 하고 좋아해요'],img:"./../Images/istp.svg"},
-    {mbti:'ENFJ',content:['분위기 메이커에요','리액션을 잘 해요','남에게 싫은 소리를 잘 못해요'],img:"./../Images/enfj.svg"},
-    {mbti:'INFJ',content:['집돌이/집순이 성향이 강해요','사람을 보는 통찰력이 있어요','자신만의 철학이 있어요'],img:"./../Images/infj.svg"},
-    {mbti:'ENTJ',content:['직감이 좋은 편이에요','주변사람을 잘 챙겨요','열등감이 없어요'],img:"./../Images/entj.svg"},
-    {mbti:'INTJ',content:['혼자있는거 좋아해요','돈관리 잘해요','공상 많이 해요'],img:"./../Images/intj.svg"},
-    {mbti:'ENFP',content:['소통과 공감을 잘 해요','은근 독립적인 성격이에요','생각을 많이 해요'],img:"./../Images/enfp.svg"},
-    {mbti:'INFP',content:['MBTI 정말 좋아해요','미룰 수 있는 건 끝까지 미뤄요','호불호가 명확해요'],img:"./../Images/infp.svg"},
-    {mbti:'ESFP',content:['사교성이 좋아요','자존감이 높아요','상처 잘 받는데 또 잘 풀려요'],img:"./../Images/esfp.svg"},
-    {mbti:'ISFP',content:['노는거 은근 좋아해요','근데 집에 있는것도 좋아요','마이웨이 성향이 강해요'],img:"./../Images/isfp.svg"},
-    {mbti:'ESTJ',content:['호불호가 명확하고 단순해요','기억력이 좋아요','완벽주의자 기질이 있어요'],img:"./../Images/estj.svg"},
-    {mbti:'ISTJ',content:['원리원칙적이에요','즉흥적인 거 싫어해요','철벽을 잘 쳐요'],img:"./../Images/istj.svg"},
+    {
+      mbti:'ENTP',
+      content:['독립심 강함','혼자서 돌아다니는게 제일 편함','정해진 틀에 갇힌 생활 못함 , 반복되는 일 매우 싫어함'],
+      img:"./../Images/entp.svg"
+    },
+    {
+      mbti:'INTP',
+      content:['주변에 사람들 별로 없는데 남아있는 사람들이랑은 정말 잘 지냄','친해질 사람이랑 안 맞는 사람은 잠깐 얘기해보면 바로 결정가능','무논리 무능력인데 목소리만 큰사람 진짜 싫어함'],
+      img:"./../Images/intp.svg"
+    },
+    {
+      mbti:'ESFJ',
+      content:['생각보다 철저함 혼자 계획 세우고 그 계획 틀어지는거 싫어함','인간관계 틀어지면 스트레스 오지게 받음','술자리  좋아함(특히 새로운 사람과의)'],
+      img:"./../Images/esfj.svg"
+    },
+    {
+      mbti:'ESTP',
+      content:['걍 대충살고 눈치도 안봄','리더십 있음 조별활동 조장 혹은 반장 도맡아 함','하고싶은거 다 해야됨 못하면 혼자서 부들부들하다가 곧 까먹음'],img:"./../Images/estp.svg"
+    },
+    {
+      mbti:'ISFJ',
+      content:['남 눈치봄 , 남들 챙기는거 좋아함','게으른 완벽주의자','진짜 싫어하는 사람 아니면 잘 안까고 남한테 관심도 별로 없음'],
+      img:"./../Images/isfj.svg"
+    },
+    {
+      mbti:'ISTP',
+      content:['만사가 귀찮음','공감능력 x ( 티 안내려고 노력은 하는데 그래도 티남)','쓸데 없는 소비 엄청함( 꽂힌게 있으면 관련된거 다사야함)'],img:"./../Images/istp.svg"
+    },
+    {
+      mbti:'ENFJ',
+      content:['겁나 시끄러움 ','무리에 속해있는 것도 좋아하지만 마이웨이 기질 약간 있음','남에게 싫은 소리를 잘 못해요'],
+      img:"./../Images/enfj.svg"
+    },
+    {
+      mbti:'INFJ',
+      content:['생각 많고 망상 잦음','낯가림 심함 , 눈치 빠름','나 혼자 생각할 시간 꼭 필요'],
+      img:"./../Images/infj.svg"
+    },
+    {
+      mbti:'ENTJ',
+      content:['시원찮은애랑 팀플하면 엄청 답답해하고 결국 총대매고 내가함','피해주는거 , 피해받는거 싫어하고 남 일에 노관심','억지로 해야할땐 최대한 빨리 끝낼수 있는 방법 찾느라 머리 오지게 굴림'],
+      img:"./../Images/entj.svg"
+    },
+    {
+      mbti:'INTJ',
+      content:['굉장한 개인주의자,이기적','감정에 휘둘리는거 싫어함','돈관리도 잘하는 편 , 사실과 원리원칙 중요시'],
+      img:"./../Images/intj.svg"
+    },
+    {
+      mbti:'ENFP',
+      content:['감정기복 심함 ,감정 얼굴에 다 드러나는 편','정신산만하지만 일머리 있음','무언가에 쉽게 몰두했다 쉽게 그만둠'],
+      img:"./../Images/enfp.svg"
+    },
+    {
+      mbti:'INFP',
+      content:['잡생각 많고 망상 잦음','가끔 우울한 나에게 심취함','남이 나를 어떻게 생각할지 고민 많이 함'],
+      img:"./../Images/infp.svg"
+    },
+    {
+      mbti:'ESFP',
+      content:['우주최강오지랖','생각 없이 잘삼 아무리 걱정되는 일 있어도 좀만 지나면 무생각','사교성 좋음 모르는 애랑도 잘 놀고 친구의 친구랑 껴서 놀아도 노상관'],
+      img:"./../Images/esfp.svg"
+    },
+    {
+      mbti:'ISFP',
+      content:['그냥 귀찮음 , 행동느림 ','감정기복 심하고 공감능력 좋음','모든일 미룰수있을때까지 다 미룸'],
+      img:"./../Images/isfp.svg"
+    },
+    {
+      mbti:'ESTJ',
+      content:['고집 셈 , 현실적,이성적,직설적','일처리 못하는거 세상에서 제일 싫음','리더 맡는거 싫어하는데 막상 하면 잘함'],
+      img:"./../Images/estj.svg"
+    },
+    {
+      mbti:'ISTJ',
+      content:['프로젝트같은거 할때 이야기 딴데로 새는거 싫어함','내가 왜 듣고있어야 하는지 모르겠음','즉흥적인거 싫어함,약속 어기는것도 난감'],img:"./../Images/istj.svg"
+    },
   ]
 
   export default mc;
