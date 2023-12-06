@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# MBTI TEST
+사용자의 성격 유형을 쉽게 파악할 수 있게 도와주는, MBTI 테스트 기능이 구현된 웹사이트입니다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🔗 LINK : https://mbti-jet.vercel.app/
 
-## Available Scripts
+💻 PERIOD : 2023.11.01 ~ 11.02
 
-In the project directory, you can run:
+🔨 STACK
 
-### `yarn start`
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=000"> <img src="https://img.shields.io/badge/tailwindcss-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 사용자의 답변에 따라 MBTI 유형을 산출하는 기능을 구현하였습니다.
 
-### `yarn test`
+- 사용자가 테스트를 시작하면, 질문 목록에서 질문을 하나씩 가져와 보여주며, 사용자의 답변에 따라 MBTI 유형을 산출합니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 각 질문은 두 개의 답변 선택지를 가지고 있고, 각 답변은 MBTI 유형의 한 요소(I, E, S, N, F, T, P, J 중 하나)에 연결되어 있습니다. 사용자가 답변을 선택할 때마다 해당 MBTI 요소의 카운트가 1씩 증가합니다. 
 
-### `yarn build`
+- 모든 질문에 답하면, 가장 높은 카운트를 가진 MBTI 요소들을 조합하여 최종 MBTI 유형을 산출하고, 해당 유형의 특성을 보여줍니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="./public/Images/fullscreenshot1.png">
+<img src="./public/Images/fullscreenshot2.png">
+<img src="./public/Images/fullscreenshot3.png">
